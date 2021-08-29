@@ -7,6 +7,7 @@ public class main {
 		FizzBuzz fb = new FizzBuzz();
 		PolindromeInteger pi = new PolindromeInteger();
 		Power p = new Power();
+		PrimeNumber pn = new PrimeNumber();
 		
 		//testing fizzbuzz program
 		/*String [] result = fb.fizzBuzz(15);
@@ -19,6 +20,9 @@ public class main {
 		
 		//testing power porgram
 		System.out.println(p.power(2, -2));
+		
+		//testing prime number 
+		System.out.println(pn.primeNumber(17));
 
 	}
 
